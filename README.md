@@ -7,7 +7,7 @@ https://coin-chart-page.onrender.com
 업비트 사이트에는 거래대금이 시간별로 나오지 않고, 하루의 총합으로 만 표시되기 때문에 추가 지표로써 해당 사이트를 제작하였습니다.
 
 1. 파이썬의 requests 라이브러리로 REST API를 호출해 업비트의 모든 코인의 1시간 데이터를 받아 온 후 pandas로 가공하여 csv 파일로 저장합니다.
-2. Node.js와 Express.js를 활용해 REST API 서버를 구축하고, PapaParse로 CSV 데이터를 받아와 요청에 맞게 처리합니다.
+2. Node.js와 Express.js를 활용해 REST API 서버와 동적 웹 페이지를 구축하고, PapaParse로 CSV 데이터를 받아와 요청에 맞게 처리합니다.
 3. 또한, Node-Cron으로 스케줄링을 설정하고 Child Process로 파이썬 스크립트를 실행해 데이터를 자동 갱신합니다.
 
 
